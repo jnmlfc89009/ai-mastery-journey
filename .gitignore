@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- PERSONAL & AI SAFETY ADDITIONS ---
+# Mac system files (Prevents 'DS_Store' clutter)
+.DS_Store
+
+# API Keys and Secrets (Crucial for Gemini/OpenAI/Vertex AI)
+.env
+.env.local
+.env.*
+secrets.json
+keys.py
+
+# Data Science / CSVs (Prevents accidental leak of private finance/EAFC data)
+*.csv
+*.xlsx
+*.sql
+*.sqlite
+
+# Streamlit (Prevents uploading your local app settings)
+.streamlit/
