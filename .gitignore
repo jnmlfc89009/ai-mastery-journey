@@ -225,3 +225,9 @@ keys.py
 
 # Streamlit (Prevents uploading your local app settings)
 .streamlit/
+
+# Custom Additions for Mac and Data Safety
+.DS_Store
+*.csv
+*.xlsx
+*.twb*
