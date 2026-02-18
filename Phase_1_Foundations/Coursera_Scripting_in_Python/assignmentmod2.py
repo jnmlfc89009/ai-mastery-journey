@@ -69,7 +69,7 @@ Created on Sat May  3 19:50:28 2025
 # print("$1000 at 2% compounded daily for 4 years yields $", future_value(500, .04, 10, 10))
 # print("$1000 at 2% compounded daily for 4 years yields $", future_value(1000, .02, 365, 4))
 
-import math # Import math module for a potentially more precise sqrt, although 3**0.5 is fine too.
+# import math Import math module for a potentially more precise sqrt, although 3**0.5 is fine too.
 
 def equilateral_triangle_area(side_length):
   """
